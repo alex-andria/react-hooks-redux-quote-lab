@@ -1,4 +1,6 @@
 import React from "react";
+import QuoteForm from "./features/quotes/QuoteForm";
+import Quotes from "./features/quotes/Quotes";
 
 function App() {
   return (
@@ -11,10 +13,12 @@ function App() {
       </div>
       <hr />
       {/*
-          TODO:
+          Completed:
 
           Render QuoteForm and Quotes Components
          */}
+      <QuoteForm/>
+      <Quotes />
     </div>
   );
 }
